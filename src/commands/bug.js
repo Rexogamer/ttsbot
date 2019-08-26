@@ -8,6 +8,26 @@ exports.run = async (client, message, args, level)
         
         await client.bugs.set(message.author.id+message.id, {txt: args.slice(1).join(' '), id: message.author.id+message.id, author: message.author.id});
         msg.edit('Bug report created with the ID of ' + message.author.id+message.id);
+        
+        // send the bug to the tts account
+        console.log(client.bugs.get(message.author.id+message.id));
+        const report = client.bugs.get(message.author.id+message.id);
+        let output = `${report.id}: ${report.text}`
+        let server = message.channel.client;
+        let ttsuser = client.fetchUser('580434970955481088');
+        .then(ttsuser => {
+        user.send('New bug report:' output); 
+        });
+        break;
+      case 'get':
+        if (client.bugs.has(args[1])) {
+          msg = await message.channel.send('Getting report...')
+          
+          console.log(client.bugs.get(args[1]));
+          const report = client.bugs.get(args[1]);
+          let output = `${report.id}: ${report.text}`;
+          msg.edit (output);
+        } else message.reply('That isn\'t a valid report ID!')
         break;
       case 'remove':
         if (client.bugs.has(args[1])) {
