@@ -7,6 +7,9 @@ const client = new Discord.Client({
   disabledEvents: ['TYPING_START']
 });
 
+//Define databases
+client.buglist = new Enmap({name: 'buglist'});
+
 //Import the files
 client.config = require('./src/cnf');
 require('./src/modules/commands')(client);
