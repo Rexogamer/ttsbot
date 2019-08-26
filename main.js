@@ -8,7 +8,7 @@ const client = new Discord.Client({
 });
 
 //Define databases
-client.buglist = new Enmap({name: 'buglist'});
+client.buglist = new Enmap({});
 
 //Import the files
 client.config = require('./src/cnf');
