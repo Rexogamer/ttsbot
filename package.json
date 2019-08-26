@@ -13,8 +13,9 @@
   "author": "Rexowogamer#1183",
   "license": "MIT",
   "dependencies": {
+    "better-sqlite3": "^5.x",
     "discord.js": "^11.x",
-    "enmap": "^5.x"
+    "enmap": "^5.x",
     "mathjs": "^6.x",
     "request": "^2.x"
   },
