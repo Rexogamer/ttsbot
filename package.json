@@ -1,0 +1,24 @@
+{
+  "name": "tts-bot",
+  "version": "0.0.1",
+  "description": "A bot for Terrific Tea Studios.",
+  "main": main.js,
+  "scripts": {
+    "start": "node main.js",
+  },
+  "engines": {
+    "node": "^10.x"
+  },
+  "repository": "github:Rexogamer/ttsbot",
+  "author": "Rexowogamer#1183",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.x"
+  },
+  "bugs": {
+    "url": "https://github.com/Rexogamer/ttsbot/issues",
+    "email": "dersarexogames@gmail.com"
+  },
+  "homepage": "https://github.com/Rexogamer/ttsbot",
+  "snyk": true
+}
