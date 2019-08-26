@@ -14,6 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "better-sqlite3": "^5.x",
+    "better-sqlite-poll": "^0.2.x",
     "discord.js": "^11.x",
     "enmap": "^5.x",
     "mathjs": "^6.x",
