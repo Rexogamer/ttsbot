@@ -4,3 +4,7 @@
 - suggest features
 - report bugs
 - steal popcrons ;-;
+## Requirements
+- Node.js 10+
+- NPM
+- Discord.js
