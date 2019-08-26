@@ -10,4 +10,4 @@
 - NPM
 - Discord.js
 ## Contributing
-See the (docs folder)[https://github.com/rexogamer/ttsbot/docs] before getting started. Thanks for the help!
+See the [docs folder](https://github.com/rexogamer/ttsbot/docs) before getting started. Thanks for the help!
