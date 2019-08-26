@@ -2,7 +2,7 @@
   "name": "tts-bot",
   "version": "0.0.1",
   "description": "A bot for Terrific Tea Studios.",
-  "main": main.js,
+  "main": "main.js",
   "scripts": {
     "start": "node main.js",
   },
@@ -13,7 +13,8 @@
   "author": "Rexowogamer#1183",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^11.x"
+    "discord.js": "^11.x",
+    "mathjs": "^6.x"
   },
   "bugs": {
     "url": "https://github.com/Rexogamer/ttsbot/issues",
