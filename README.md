@@ -3,6 +3,7 @@
 #### Features
 - suggest features
 - report bugs
+- get info on our games + download links
 - steal popcrons ;-;
 ## Requirements
 - Node.js 10+
