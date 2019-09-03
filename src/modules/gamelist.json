@@ -1,0 +1,18 @@
+gamelist {
+  ["dersa", "ders-a"]: {
+    gamename: "Ders-A",
+    gamever: "0.2.0",
+    gamedesc: "The first one!",
+    gamegenre: "Platformer",
+    gamerel: "Unknown; in beta",
+    gamesrc: "https://github.com/terrificteastudios/ders-a"
+  }
+  mazo: {
+    gamename: "Mazo",
+    gamever: "Development not started",
+    gamedesc: "A combo of platformers and Minecraft. Rexo sets off to save his island."
+    gamegenre: "Platformer/Sandbox/RPG?"
+    gamerel: "Unknown"
+    gamesrc: "None"
+  }
+}
