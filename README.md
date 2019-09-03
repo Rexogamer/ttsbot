@@ -7,7 +7,6 @@
 - steal popcrons ;-;
 ## Requirements
 - Node.js 10+
-- NPM
 - Discord.js
 ## Contributing
 See the [docs folder](https://github.com/Rexogamer/ttsbot/tree/master/docs) before getting started. Thanks for the help!
