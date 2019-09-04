@@ -1,6 +1,6 @@
 gamelist {
   dersa: {
-    othertitles: "Ders-A",
+    othertitles: ["Ders-A", "A"],
     gamename: "Ders-A",
     gamever: "0.2.0",
     gamedesc: "The first one!",
